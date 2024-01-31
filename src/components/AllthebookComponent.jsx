@@ -11,7 +11,7 @@ class Allthebook extends Component {
     return (
       <Container>
         <Row className="g-3 justify-content-center m-2">
-          <h1 className="text-center">All the books</h1>
+          <h1 className="text-center">Our book selection</h1>
           {Books.map((book) => (
             <Col xs={6} md={4} lg={3} xl={2} key={book.asin}>
               <Card className="h-100">
