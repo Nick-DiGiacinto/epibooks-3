@@ -1,7 +1,7 @@
 import "./App.css";
-import Mywelcome from "../components/MywelcomeComponent";
-import MynavComponent from "../components/MynavComponent";
-import AllthebookComponent from "../components/AllthebookComponent";
+import Mywelcome from "./components/MywelcomeComponent2"
+import MynavComponent from "./components/MynavComponent";
+import AllthebookComponent from "./components/AllthebookComponent";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
