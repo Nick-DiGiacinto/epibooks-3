@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import { Component } from "react";
 
-class Allthebook extends Component {
+class BooksComplete extends Component {
   render() {
     return (
       <Container>
@@ -36,4 +36,4 @@ class Allthebook extends Component {
   }
 }
 
-export default Allthebook;
+export default BooksComplete;

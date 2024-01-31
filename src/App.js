@@ -1,19 +1,19 @@
 import "./App.css";
-import Mywelcome from "./components/MywelcomeComponent2"
-import MynavComponent from "./components/MynavComponent";
-import AllthebookComponent from "./components/AllthebookComponent";
+import Greetings from "./components/GreetingsComponent"
+import Navbar1 from "./components/NavbarComponent";
+import BooksComplete from "./components/BookComponent";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <>
       <header>
-        <MynavComponent />
-        <Mywelcome />
+        <Navbar1 />
+        <Greetings />
       </header>
       <main>
         <>
-          <AllthebookComponent />
+          <BooksComplete />
         </>
       </main>
     </>

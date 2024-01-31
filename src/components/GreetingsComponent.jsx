@@ -1,6 +1,6 @@
 import Alert from "react-bootstrap/Alert";
 
-function Mywelcome() {
+function Greetings() {
   return (
     <Alert variant="warning" className="m-2 text-center">
       <Alert.Heading>
@@ -15,4 +15,4 @@ function Mywelcome() {
   );
 }
 
-export default Mywelcome;
+export default Greetings;
